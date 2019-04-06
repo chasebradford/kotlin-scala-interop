@@ -1,0 +1,11 @@
+
+plugins {
+  id 'scala'
+}
+repositories {
+  mavenCentral()
+}
+dependencies {
+  compile project(":kotlin_lib")
+  compile "org.scala-lang:scala-library:2.11.11"
+}
